@@ -5,12 +5,14 @@
 # Version: 1.0
 
 # Install required libraries
-# remotes::install_github("ambiorix-web/ambiorix", 
-#                         
+# remotes::install_github("ambiorix-web/ambiorix",
+# 
 #                         # stored in Renviron
-#                         auth_token = Sys.getenv("pat"))
+#                         auth_token = Sys.getenv("pat"),
+#                         
+#                         force = TRUE)
 
-# Install required libraries
+# Load required libraries
 library(nycflights13)
 library(dplyr)
 library(data.table)
